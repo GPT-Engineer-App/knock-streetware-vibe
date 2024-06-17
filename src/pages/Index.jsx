@@ -1,5 +1,5 @@
 import { Box, Container, Heading, Text, VStack, Image, SimpleGrid, Button } from "@chakra-ui/react";
-import logo from "../../public/images/school-of-hard-knocks-logo.png";
+import logo from "../images/school-of-hard-knocks-logo.png";
 import { FaTshirt, FaRegGrinBeamSweat } from "react-icons/fa";
 
 const Index = () => {
