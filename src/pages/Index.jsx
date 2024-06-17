@@ -1,11 +1,13 @@
 import { Box, Container, Heading, Text, VStack, Image, SimpleGrid, Button } from "@chakra-ui/react";
 import { FaTshirt, FaRegGrinBeamSweat } from "react-icons/fa";
+import logo from "../../public/images/school-of-hard-knocks-logo.png";
 
 const Index = () => {
   return (
     <Container maxW="container.xl" p={4}>
       <VStack spacing={8} align="stretch">
         <Box textAlign="center" py={10} bg="gray.800" color="white">
+          <Image src={logo} alt="School of Hard Knocks Logo" mx="auto" mb={4} />
           <Heading as="h1" size="2xl" mb={4}>Knock Streetware</Heading>
           <Text fontSize="xl">High-Style Clothing for the Modern Individual</Text>
         </Box>
