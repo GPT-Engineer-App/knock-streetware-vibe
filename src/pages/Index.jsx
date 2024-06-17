@@ -1,5 +1,5 @@
 import { Box, Container, Heading, Text, VStack, Image, SimpleGrid, Button } from "@chakra-ui/react";
-import { FaTshirt, FaRegGrinBeamSweat, FaPants } from "react-icons/fa";
+import { FaTshirt, FaRegGrinBeamSweat } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -26,7 +26,7 @@ const Index = () => {
               <Button colorScheme="teal" variant="outline">Shop Shirts</Button>
             </VStack>
             <VStack>
-              <FaPants size="4em" />
+              <FaRegGrinBeamSweat size="4em" />
               <Heading as="h3" size="lg">Pants</Heading>
               <Text>Find the perfect pair of pants for any occasion.</Text>
               <Button colorScheme="teal" variant="outline">Shop Pants</Button>
