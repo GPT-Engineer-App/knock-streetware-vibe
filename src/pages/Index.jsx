@@ -1,5 +1,5 @@
 import { Box, Container, Heading, Text, VStack, Image, SimpleGrid, Button } from "@chakra-ui/react";
-import { FaTshirt, FaHoodie, FaPants } from "react-icons/fa";
+import { FaTshirt, FaRegGrinBeamSweat, FaPants } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -14,7 +14,7 @@ const Index = () => {
           <Heading as="h2" size="xl" mb={6} textAlign="center">Our Collection</Heading>
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
             <VStack>
-              <FaHoodie size="4em" />
+              <FaRegGrinBeamSweat size="4em" />
               <Heading as="h3" size="lg">Hoodies</Heading>
               <Text>Stay warm and stylish with our exclusive hoodies.</Text>
               <Button colorScheme="teal" variant="outline">Shop Hoodies</Button>
